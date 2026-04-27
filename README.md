@@ -97,7 +97,7 @@ $$
 Для каждого изображения были выполнены запуски при фиксированном:
 
 ```text
-$/sigma_d$ = 1.0
+$\sigma_d$ = 1.0
 ```
 
 и пяти значениях параметра `sigma_r`:
@@ -126,7 +126,7 @@ estimated total speedup = CPU time / GPU estimated total
 
 ## Результаты экспериментов
 
-| image   |   width |   height |   pixels |   sigma_d |   sigma_r |   CPU time, ms |   GPU kernel avg, ms |   GPU estimated total, ms |   kernel speedup |   estimated total speedup |   max abs diff |   mean abs diff |
+| image   |   width |   height |   pixels |   $\sigma_d$ |   $\sigma_r$ |   CPU time, ms |   GPU kernel avg, ms |   GPU estimated total, ms |   kernel speedup |   estimated total speedup |   max abs diff |   mean abs diff |
 |:--------|--------:|---------:|---------:|----------:|----------:|---------------:|---------------------:|--------------------------:|-----------------:|--------------------------:|---------------:|----------------:|
 | image_1 |    1600 |     2400 |  3840000 |         1 |         5 |       513.208  |             0.519722 |                   189.151 |          987.466 |                  2.71322  |              1 |           2e-06 |
 | image_1 |    1600 |     2400 |  3840000 |         1 |        15 |       511.361  |             0.344342 |                   154.106 |         1485.04  |                  3.31824  |              1 |           1e-06 |
